@@ -639,3 +639,95 @@ width: 100%;
   font-size: 15px;
   line-height: 1.6;
 }
+
+
+/* Cars */
+
+.cars-hero {
+  height: 80vh;
+  background: url("assets/images/cars/garage-bg.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.cars-hero-title {
+  position: relative;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 49px;
+  z-index: 2;
+  letter-spacing: 3px;
+  margin-bottom: 17px;
+}
+
+.cars-hero-sub {
+  position: relative;
+  z-index: 2;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  font-size: 23px;
+  color: #cfcfcf;
+}
+
+
+
+.cars-grid {
+  padding: 80px 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.car-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 238, 255, 0.15);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.car-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 22px rgba(0, 238, 255, 0.08);
+}
+
+.car-img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.car-name {
+  font-family: 'Orbitron', sans-serif;
+  color: #00eaff;
+  margin-bottom: 6px;
+}
+
+.car-type {
+  color: #d0d0d0;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.car-stats p {
+  margin: 4px 0;
+  color: #bcbcbc;
+  font-size: 14px;
+}
+
+.car-stats span {
+  color: #00eaff;
+  font-weight: bold;
+}
+
+.car-tagline {
+  margin-top: 14px;
+  font-style: italic;
+  color: #eeeeee;
+  opacity: 0.9;
+}
