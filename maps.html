@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Nitro</title>
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0f0f13;
+            color: #e0e0e0;
+            font-family: 'Playfair Display', serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(15, 15, 19, 0.95);
+            border-bottom: 1px solid #2a2a35;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .coming-soon {
+            text-align: center;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        .coming-soon h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: #d4af37;
+        }
+
+        .btn-home {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #d4af37;
+            color: #0f0f13;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+
+        .btn-home:hover {
+            background-color: #f0c14b;
+            transform: translateY(-2px);
+        }
+
+        .foot {
+            background: #0a0a0c;
+            padding: 20px 0;
+            text-align: center;
+            color: #b0b0b0;
+            font-size: 0.9rem;
+            border-top: 1px solid #2a2a35;
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            .coming-soon h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="Nitro Rebellion Logo" class="logo">
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="story.html">Story</a>
+            <a href="cars.html">Cars</a>
+            <a href="maps.html" class="active">Maps</a>
+            <a href="#subscribe">Login</a>
+        </nav>
+    </header>
+    <div class="coming-soon">
+        <h1>Country Map</h1>
+        <p>Coming Soon</p>
+        <a href="index.html" class="btn-home">Back to Home</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>NITRO REBELLION</h3>
+                <p>Rule the Streets. Break the System.</p>
+            </div>
+            <div class="footer-social">
+                <p class="follow-us">Follow Us</p>
+                <a href="#"><img src="https://img.icons8.com/?size=100&id=z657ovoGgS2o&format=png&color=000000"
+                        alt="fb"></a>
+                <a href="#"><img src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000"
+                        alt="ig"></a>
+                <a href="#"><img src="https://img.icons8.com/?size=100&id=4eZI5999yCWV&format=png&color=000000"
+                        alt="twitter"></a>
+                <a href="#"><img src="https://img.icons8.com/?size=100&id=omVNNE6wkyP7&format=png&color=000000"
+                        alt="yt"></a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Nitro Rebellion. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
