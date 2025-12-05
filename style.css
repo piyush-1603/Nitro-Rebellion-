@@ -11,6 +11,26 @@ body {
   overflow-x: hidden;
 }
 
+/* Light mode  */
+.light-mode {
+    background: rgb(230, 230, 230) ;
+    color: black ;
+}
+
+.light-mode .navbar,
+.light-mode .footer,
+.light-mode .features-section {
+    background: rgb(230, 230, 230);
+}
+.light-mode .feature-card{
+  background-color: rgb(0, 0, 0);
+}
+
+.light-mode a, .subscribe-left {
+    color: black ;
+}
+
+
 /* Navbar */
 
 .navbar {
@@ -56,6 +76,18 @@ body {
   transform: scale(1.2);
 }
 
+.themebtn {
+    padding: 8px 18px;
+    border: 2px solid #00eaff;
+    background: transparent;
+    color: #00eaff;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -85,7 +117,6 @@ body {
   text-align: center;
   color: #fff;
   padding: 0 20px;
-  animation: fadeUp 1s ease-out;
   z-index: 10;
 }
 
@@ -563,7 +594,6 @@ body {
   padding: 20px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .crew-card:hover {
