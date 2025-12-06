@@ -13,14 +13,14 @@ body {
 
 /* Light mode  */
 .light-mode {
-    background: rgb(230, 230, 230) ;
+    background: #f2f4f7 ;
     color: black ;
 }
 
 .light-mode .navbar,
 .light-mode .footer,
 .light-mode .features-section {
-    background: rgb(230, 230, 230);
+    background: #f2f4f7;
 }
 .light-mode .feature-card{
   background-color: rgb(0, 0, 0);
